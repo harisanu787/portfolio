@@ -323,9 +323,10 @@ span{
     color: rgb(255, 0, 111) ;
     border: 3px solid rgb(255, 0, 111);
     border-radius: 20px;
-    padding: 10px;
+    padding: 8px;
     font-size: 20px;
     margin-top: 20px;
+    margin-bottom: 20px;
    
     
   
@@ -426,6 +427,7 @@ span{
     padding: 10px;
     font-size: 20px;
     margin-top: 20px;
+    margin-bottom: 20px;
    
     
   
@@ -645,6 +647,20 @@ span{
     .about-content p{
         font-size: 2rem;
        
+    }
+    .certify-box .certify-layer a{
+        color: white;
+        font-weight: bold;
+        background: rgb(131,58,180);
+        background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 100%, rgba(252,176,69,1) 100%);
+      
+    }
+    .projects-box .projects-layer a{
+        color: white;
+        font-weight: bold;
+        background: rgb(131,58,180);
+        background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 100%, rgba(252,176,69,1) 100%);
+        
     }
 
 
