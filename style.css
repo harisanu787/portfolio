@@ -653,6 +653,7 @@ span{
         font-weight: bold;
         background: rgb(131,58,180);
         background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 100%, rgba(252,176,69,1) 100%);
+        padding-bottom: 20px;
       
     }
     .projects-box .projects-layer a{
@@ -662,6 +663,26 @@ span{
         background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 100%, rgba(252,176,69,1) 100%);
         
     }
+    .projects-box .projects-layer a{
+        padding-bottom: 35px;
+    }
+
+    .certify-box .certify-layer a{
+
+        padding-bottom: 35px;
+    }
+
+        .projects-box .projects-layer{
+            transform: translateY(0);
+        }
+          
+     
+        .certify-box .certify-layer{
+            transform: translateY(0);
+        }
+   
+
+
 
 
 
