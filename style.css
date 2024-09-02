@@ -629,6 +629,18 @@ span{
 }
 
 @media (max-width:617px){
+     #menu-icon {
+            font-size: 24px;
+            cursor: pointer;
+        }
+
+        .navbar {
+            display: none; 
+        }
+
+        .navbar.active {
+            display: block; 
+        }
     .projects-container{
         grid-template-columns: 1fr;
     }
