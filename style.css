@@ -105,6 +105,9 @@ span{
 }
 .home-img img{
    width: 20vw;
+   box-shadow: 10px 10px 50px var(--main-color);
+   border-radius: 50%;
+   border: 3px solid var(--main-color);
  
    animation: floatimage 4s ease-in-out infinite;
 }
@@ -171,7 +174,7 @@ span{
     background: var(--snd-bg-color);
 }
 .about-img img{
-    width: 35vw;
+    width: 30vw;
 }
 .heading{
     text-align: center;
