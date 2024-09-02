@@ -237,6 +237,52 @@ span{
 
 
 /*skills*/
+  
+
+#skills {
+    padding: 50px 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 5rem;
+    font-size: 2em;
+}
+
+.skill {
+    margin-bottom: 20px;
+}
+
+.skill p {
+    margin: 0;
+    
+    font-size: 2.6rem;
+}
+
+.progress-bar {
+    background-color: var(--text-color);
+    border-radius: 25px;
+    overflow: hidden;
+    height: 25px;
+    margin-top: 5px;
+}
+
+.progress {
+    background-color: var(--main-color);
+    height: 100%;
+    line-height: 25px; /* Center text vertically */
+    color: var(--bg-color);
+    font-size: 15px;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 10px;
+    box-sizing: border-box;
+    border-radius: 25px 0 0 25px; /* Match the bar's rounded corners */
+    transition: width 0.4s ease;
+}
+
 
 
 
@@ -618,6 +664,7 @@ span{
     .services h2{
         margin-bottom: 3rem;
     }
+ 
     .projects h2{
         margin-bottom: 3rem;
     }
@@ -697,7 +744,31 @@ span{
         .certify-box .certify-layer{
             transform: translateY(0);
         }
-   
+        #skills {
+            padding: 30px 10px;
+        }
+    
+        h2 {
+            font-size: 2em;
+
+        }
+        .skill p{
+            margin:20px;
+            font-weight: bold;
+            font-size: 2.5rem;
+        }
+    
+        .progress-bar {
+            height: 40px;
+            margin:20px;
+        }
+    
+        .progress {
+            line-height: 20px;
+            padding-top: 10px;
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
 
 
 
@@ -717,3 +788,15 @@ span{
         width: 100%;
     }
 }
+
+
+
+
+     /* Reset some default styles */
+
+
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+
+  }
