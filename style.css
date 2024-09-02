@@ -48,7 +48,7 @@ section{
     margin-left: 4rem;
     margin-right: 4rem;
     margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
    
 }
 .logo{
@@ -62,7 +62,7 @@ section{
     margin-left: 4rem;
     margin-right: 4rem;
     margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 .navbar a{
      font-size: 1.8rem;
@@ -104,7 +104,7 @@ span{
     line-height: 1.5;
 }
 .home-img img{
-   width: 25vw;
+   width: 20vw;
    box-shadow: 10px 10px 50px var(--main-color);
    border-radius: 50%;
    border: 3px solid var(--main-color);
@@ -687,11 +687,16 @@ h2 {
 
         .navbar {
             display: none; 
+            margin-bottom: 1rem;
         }
 
         .navbar.active {
             display: block; 
         }
+        .header a{
+            margin-bottom: 1rem;
+        }
+
     .projects-container{
         grid-template-columns: 1fr;
     }
