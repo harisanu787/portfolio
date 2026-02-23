@@ -101,7 +101,7 @@ if (contactForm) {
 
         const templateParams = {
             full_name: fullName,
-            email: email,
+            email:  email,
             mobile: mobile,
             subject: subject,
             message: message
@@ -124,3 +124,4 @@ if (contactForm) {
 } else {
     console.warn("Contact form not found");
 }
+
