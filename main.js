@@ -65,7 +65,7 @@ ScrollReveal().reveal('.home-contact p, .about-content', { origin: 'right' });
 
 /* typed js */
 const typed = new Typed('.multiple-text', {
-    strings: ['SAP FICO consultant', 'Workflow Specialist'],
+    strings: ['UI/UX Designer', 'Web Developer'],
     typeSpeed: 70,
     backSpeed: 70,
     backDelay: 1000,
@@ -124,4 +124,5 @@ if (contactForm) {
 } else {
     console.warn("Contact form not found");
 }
+
 
